@@ -1,0 +1,17 @@
+# Github
+Host github
+  HostName github.com
+  User git
+  IdentityFile ~/home/pmray96/dotfiles/ssh_config
+
+# CAEN
+Host pamiray
+  HostName login.engin.umich.edu
+  User pamiray
+  Compression yes
+
+# Home media server
+Host nas
+  HostName 10.180.239.64
+  User pamiray
+  IdentityFile ~/home/pmray96/dotfiles/ssh_config
